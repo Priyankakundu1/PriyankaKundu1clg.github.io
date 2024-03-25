@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+    <style>
+        body{
+            background-image: url(yoga2.jpg);
+            background-size:cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 style="color:black;"><center>Please provide your details so that we can provide you with useful recommendations</center></h1>
+    <form>
+        <label for="name">Name 
+            <input name="name" type="text" size="25">
+        </label>
+        <br>
+       <p> <label for="comments">
+        <textarea name="comments" rows="6" col="50">Why Do You Want To Join Us??</textarea>
+        </label></p>
+        <p>
+            <label for="email">Enter your email here</label>
+            <input type="email" name="email">
+        </p>
+        <p>
+            <label for="passcode">Enter your email password here</label>
+            <input type="password" name="passcode">
+        </p>
+        <p>
+            <label for="address"> Enter your Weight in KGs
+                <input name="weight" type="text" size="25">
+            </label>
+        </p>
+        <p>
+            <label for="address"> Enter your Height in foots
+                <input name="height" type="text" size="25">
+            </label>
+        </p>
+        <p>
+            <label for="like">What form of Exercises do you like??
+                    <select name="like" id="like">
+                        <option value="Running">Running</option>
+                        <option value="Cycling">Cycling</option>
+                        <option value="Walking">Walking</option>
+                        <option value="Weight Lifting">Weight Lifting</option>
+                        <option value="Cardio">Cardio</option>
+                        <option value="Swimming">Swimming</option>
+                        <option value="others">others</option>
+                    </select>
+            </label>
+        </p>
+        <label for="others">If others then specify
+            <input name="others" type="text" size="25">
+        </label>
+        <p>
+            <label for="Health Problems">Select The Health Issues you Are Facing:<br>
+                <input type="checkbox">PCOS 
+                <input type="checkbox">Diabetes
+                <input type="checkbox">High Blood Pressure
+                <input type="checkbox">Obesity
+                <input type="checkbox">Others
+                <input type="checkbox">None
+            </label>
+        </p>
+        <label for="others">If others then specify
+            <input name="others" type="text" size="25">
+        </label>
+        <p>
+            <label for="findings">How did you get to know about Us??<br>
+                <input type="radio">Instagram 
+                <input type="radio">Email 
+                <input type="radio">LinkedIn 
+                <input type="radio">Through Friends
+                <input type="radio">Through Office
+                <input type="radio">Through FaceBook
+                
+            </label>
+        </p>
+        <p>
+            <label for="ratings">How Much Do You Like Our Site
+                    <select name="ratings" id="ratings">
+                        <option value="Amazing">Amazing</option>
+                        <option value="10">10</option>
+                        <option value="8">8</option>
+                        <option value="5">5</option>
+                        <option value="Satisfactory">Satisfactory</option>
+                        <option value="Requires Improvement">Requires Improvement</option>
+                        <option value="Worst">Worst</option>
+                    </select>
+            </label>
+        </p>
+        <p>
+            <label for="Visit again">
+                Will You Visit Again? Will You Recommend Us To others??<br>
+                <input type="radio">Yes 
+                <input type="radio">No
+            </label>
+        </p>
+     <p>
+       <button style="background-color: aqua;">Submit</button>
+       <button style="background-color: yellowgreen;">Clear</button>
+     </p>
+    </form>
+</body>
+</html>
